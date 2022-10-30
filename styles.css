@@ -1,0 +1,135 @@
+body {
+  background-color: #f1f1f1;
+  color: brown;
+
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+a{
+  color:black;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+a:active{
+  color: red;
+}
+
+.avatar {
+  width: 250px;
+  border-radius: 25% ;
+}
+
+
+.info p {
+  color: #86898f;
+  margin: 0;
+  font-style: italic;
+  font-weight: bold;
+  text-transform: none;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+}
+
+
+@media (max-width: 700px) {
+  .info {
+    text-align: center;
+    display: block;
+  }
+}
+
+.container{
+  max-width: 75%;
+  margin: auto;
+}
+
+
+.bg-yellow{
+  background: #fff9dc;
+}
+
+.bg-green{
+  background: #e5ffe7;
+}
+
+.bg-red{
+  background: #ffe5e5;
+}
+
+.bg-purple{
+  background: rgb(253, 217, 253);
+}
+
+.bg-blue{
+  background: rgb(221, 221, 255);
+}
+
+.bg-grey{
+  background: rgb(173, 173, 173);
+}
+
+
+
+.card{
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+.card h2 {
+  margin-bottom: 18px;
+}
+
+.list{
+  padding: 0 20px;
+}
+
+.list li{
+  color:#86898f;
+  margin-bottom: 7px;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td{
+  padding-bottom: 15px;
+}
+
+.table .temp {
+  color: #86898f;
+}
+
+.table tr:nth-child(even) {
+  background: white;
+}
+
+.contact  {
+text-align: center;
+}
+
+.form-group label {
+display: block;
+font-size: 15px;
+color: #86898f;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+  padding: 5px 0 3px;
+  outline: none;
+  font-family: 'Times New Roman', Times, serif;
+  background: transparent;
+}
